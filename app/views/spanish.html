@@ -1,0 +1,15 @@
+ <h1> Bienvenido al detector Idioma </h1>
+ <div id="content">
+	<div id="textInput">
+		<label> Texto </label>
+		<textarea ng-keypress="enterKey($event)" ng-model="textInput" rows='5' placeholder="Introduzca el texto" />
+	</div>
+	<div id="urlInput">
+		<label> URL&nbsp;&nbsp;</label>
+		<input ng-keypress="enterKey($event)" type="text" ng-model="urlInput" name="url" placeholder="http://">
+	</div><br/>
+	<button ng-click='checker()'>Encontrar</button> 
+	
+	<p>{{errorSpanish}} </p>
+	<div>{{result}}</div>
+ </div>

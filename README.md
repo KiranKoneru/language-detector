@@ -1,4 +1,4 @@
-# language-detector
+# Language Detector
 
 Language-Detector is my first web application built with AngularJS
 
